@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="author" content="Maria-Elena Ghețe">
+    <meta name="keywords" content="ITstart-up, IT company, IT help, IT sollutions">
+    <meta name="description"
+        content="ConnectIT is an innovative IT solutions company specializing in seamlessly bridging technological gaps for businesses. With a focus on fostering connectivity, we provide tailored solutions that optimize efficiency, enhance collaboration, and propel organizations into a seamlessly integrated digital future.">
+    <title>ConnectIT</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+    <style>
+        .main-navbar {
+            background-color: #D3DBF6;
+
+        }
+
+        .main-navbar .navbar-brand {
+            font-size: 30px;
+            line-height: 50px;
+            margin-bottom: 0;
+            margin-right: 30px;
+        }
+
+        .main-navbar .navbar-brand img {
+            height: 50px;
+            margin-right: 10px;
+            vertical-align: bottom;
+        }
+
+        .main-navbar .nav-link {
+            color: #4E6A8B;
+
+        }
+
+        .chenar-link {
+            display: inline-block;
+            border: 1px solid #4E6A8B;
+            border-radius: 5px;
+            padding: 7px;
+        }
+
+        .main-navbar .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            text-transform: capitalize;
+            color: #4E6A8B;
+            margin-top: 45px;
+            margin-bottom: 40px;
+            display: inline-block;
+            border: 2px solid #4E6A8B;
+            border-radius: 7px;
+            padding: 15px;
+
+
+        }
+
+        h3 {
+            font-size: 150%;
+            text-align: center;
+            font-weight: bold;
+            color: #729ac7;
+
+        }
+
+        .carousel-item .ratio img {
+            object-fit: cover;
+        }
+
+        .carousel-caption {
+            background-color: rgba(255, 255, 255, 0.3);
+            color: black;
+
+        }
+
+        .carousel-caption .title {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+
+        .card img {
+            object-fit: cover;
+        }
+
+        .card .card-title {
+            font-size: 1.25rem;
+        }
+
+
+        .galerie img {
+            object-fit: cover;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .text-mare {
+            font-size: 150%;
+            text-align: center;
+            font-weight: bold;
+            color: #729ac7;
+        }
+
+        .text-servicii {
+            font-size: 160%;
+        }
+
+        .text-servicii-subtitlu {
+            font-size: 120%;
+            background-color: #D3DBF6;
+        }
+
+        footer {
+            background-color: #4E6A8B;
+            color: #000000;
+            text-align: center;
+            padding: 10px;
+            margin-top: 200px;
+
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+
+        .logo-container img {
+            max-width: 100px;
+        }
+
+        .numecompanie {
+            margin-bottom: 30px;
+            padding: 7px;
+            margin-left: 50px;
+            margin-right: 50px;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-md  main-navbar sticky-top">
+        <nav class="container-xl">
+            <h1 class="navbar-brand">
+                <a class="nav-link" href="index.html">
+                    <img src="imglogo.png" />
+                </a>
+            </h1>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+                aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="nav main-menu flex-column flex-md-row">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="slider" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="4" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="ratio ratio-21x9">
+                    <img src="carusel1.jpg" class="d-block w-100" alt="hands together">
+                </div>
+
+                <div class="carousel-caption shadow rounded">
+                    <p class="title">Welcome to ConnectIT!</p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="carusel2.jpg" class="d-block w-100" alt="close-up of a person typing on their laptop">
+                </div>
+
+                <div class="carousel-caption shadow rounded">
+                    <p class="title">Connecting innovation, Empowering tomorrow</p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="carusel3.jpg" class="d-block w-100"
+                        alt="person using their phone and sitting at a table with a laptop, pen, coffee mug and writing papers">
+                </div>
+
+                <div class="carousel-caption shadow rounded">
+                    <p class="title">Where technology and vision connect</p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="carusel4.jpg" class="d-block w-100" alt="close-up of a keyboard">
+                </div>
+
+                <div class="carousel-caption shadow rounded">
+                    <p class="title">Catalyzing success in the digital realm</p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="carusel5.jpg" class="d-block w-100"
+                        alt="women showing each other a laptop screen and discussing">
+                </div>
+
+                <div class="carousel-caption shadow rounded">
+                    <p class="title">Seamless solutions, infinite connectivity</p>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="about">About Us</h2>
+            </div>
+        </div>
+        <p>
+            In the late 2010s, a group of talented and ambitious software engineers and entrepreneurs
+            decided to create a company that would revolutionize the way we communicate and share
+            information. This company, known as ConnectIT, started in a small garage in Cluj-Napoca,
+            Romania.
+        </p>
+        <p>
+            After years of hard work, countless lines of code, and relentless dedication, we launched our
+            first product in 2020. The company's commitment to user privacy and data security set it apart
+            from the competition, earning the trust of millions of users.
+        </p>
+        <p>
+            As the years passed, ConnectIT continued to innovate. We expanded our platform to include
+            features like cloud storage, virtual meetings, and collaboration tools.
+        </p>
+        <p>
+            In its early years, ConnectIT focused on providing comprehensive IT consulting services, helping businesses
+            identify and implement tailored solutions to enhance efficiency and productivity. The company quickly gained
+            a reputation for its customer-centric approach, technical expertise, and commitment to delivering results.
+        </p>
+
+        <div class="row">
+            <div class="col-12 col-md-5 col-lg-6">
+                <img class="w-100 rounded mt-4 mt-lg-0" src="meeting1.jpg" alt="a man wiritng on a whiteboard" />
+
+            </div>
+            <div class="col-12 col-md-5 col-lg-6">
+                <img class="w-100 rounded mt-4 mt-lg-0" src="proiecteimg4.jpg"
+                    alt="orange, white, green and blue wires" />
+            </div>
+        </div>
+        <hr />
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 id="projects">Projects</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <h3>VirtuMeet</h3>
+                <p>
+                    VirtuMeet is a groundbreaking virtual meeting and collaboration platform
+                    that transcends the limitations of traditional video conferencing. It combines augmented and
+                    virtual reality technologies to create a highly immersive and productive meeting experience.
+                    With VirtuMeet, users can have lifelike interactions, share 3D models, and collaborate in a
+                    shared virtual space, no matter where they are in the world.
+                </p>
+
+
+
+
+                <img class="rounded w-100" src="flatlay1.jpg"
+                    alt="Table with headphones, coffee cups, and laptops where people are working" />
+
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h3>EcoSaver</h3>
+                <p>
+                    EcoSaver is a sustainable technology solution designed to reduce energy
+                    consumption and carbon emissions in office environments. It combines IoT sensors, AI, and smart
+                    building management to optimize lighting, heating, and cooling systems. EcoSaver provides
+                    real-time data and predictive analytics to help companies reduce their carbon footprint while
+                    saving on energy costs. Sustainability practices reduce environmental impact.
+                </p>
+
+                <img class="rounded w-100" src="ecosaver.jpg"
+                    alt="Panel with notes and diagrams and a hand adding a note" />
+                <hr />
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <h3>CipherGuard</h3>
+                <p>
+                    CipherGuard is a state-of-the-art cybersecurity platform that provides
+                    end-to-end protection for businesses. It offers advanced threat detection, data encryption,
+                    conversation encryption and
+                    multi-factor authentication to safeguard sensitive information. CipherGuard's machine learning
+                    algorithms continuously adapt to evolving cyber threats, ensuring the utmost security for
+                    organizations.
+                </p>
+
+
+                <img class="rounded w-100" src="cipherguard.jpg"
+                    alt="Computer monitor screen with the cursor pointing to the word 'Security'" />
+
+            </div>
+
+            <hr />
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 id="services">Services</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p>
+                        By choosing ConnectIT, you're choosing innovation, reliability, and a commitment to the
+                        sustainable and ethical future of technology.
+                    </p>
+                    <p class="text-servicii">
+                        What we provide :
+                    </p>
+                    <p class="text-servicii-subtitlu">
+                        Digital Transformation Strategies:
+                    </p>
+                    <p>
+                        Future-proof your business with our digital transformation expertise. We guide you through the
+                        process of adopting innovative technologies for long-term success.
+                    </p>
+                    <p class="text-servicii-subtitlu">
+                        Mobile App Development:
+                    </p>
+                    <p>
+                        Reach your audience wherever they are. Our mobile app development services cover iOS and Android
+                        platforms, delivering intuitive and engaging user experiences.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="proiecteimg3.jpg" class="w-100 h-100 rounded"
+                                    alt="man viewing analytics on his tablet">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">Data Analytics and Business Intelligence <span
+                                            class="badge bg-danger">Sale! 20% off</span></h3>
+                                    <p class="card-text">Turn your data into actionable insights. Our data analytics
+                                        services help you make informed
+                                        decisions and gain a competitive edge in your industry.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="meeting2.jpg" class="w-100 h-100 rounded"
+                                    alt="people having a meeting and looking at a monitor">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">IT Training and Workshops</h3>
+                                    <p class="card-text">Empower your team with the latest skills and knowledge. Our
+                                        training programs cover a range of IT
+                                        topics, ensuring your workforce stays ahead in a rapidly evolving tech
+                                        landscape.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="serv1.png" class="w-100 h-100 rounded"
+                                    alt="animated image of a person working on their computer">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">Collaboration Platforms:</h3>
+                                    <p class="card-text">Foster teamwork with our collaboration platforms. Whether it's
+                                        document sharing, project management,
+                                        or team collaboration, ConnectIT provides solutions that enhance productivity.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="serv3.jpg" class="w-100 h-100 rounded"
+                                    alt="animated image on a blue background of a person's hands sending emails">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">Email Solutions:</h3>
+                                    <p class="card-text">Streamline your email communication with ConnectIT's tailored
+                                        email solutions. Benefit from robust
+                                        security, efficient organization, and seamless integration with other business
+                                        applications.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 id="team">Team of specialists</h2>
+                </div>
+            </div>
+
+            <div class="row galerie">
+                <div class="col-6 col-md-4 col-lg-6">
+                    <img class="img-thumbnail w-100" src="victor1.jpg"
+                        alt="a man wearing glasses and a colorful shirt" />
+                    <p class="text-mare">Victor</p>
+                    <p class="center">Co-founder</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-6">
+                    <img class="img-thumbnail w-100" src="raul1.jpg" alt="a man with his hands crossed" />
+                    <p class="text-mare">Raul</p>
+                    <p class="center">Co-founder</p>
+                </div>
+            </div>
+
+            <div class="row galerie">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img class="img-thumbnail w-100" src="antonia.jpg"
+                        alt="a young woman dressed in a blue suit pointing to the camera" />
+                    <p class="text-mare">Antonia</p>
+                    <p class="center">International Relations Manager</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img class="img-thumbnail w-100" src="luca.jpg" alt="a man dressed in a suit laughing" />
+                    <p class="text-mare">Luca</p>
+                    <p class="center">Sustainability Expert</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img class="img-thumbnail w-100" src="andrei.jpg" alt="older man wearing glasses and smiling" />
+                    <p class="text-mare">Andrei</p>
+                    <p class="center">Hardware Specialist</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img class="img-thumbnail w-100" src="mihai.jpg"
+                        alt="a man wearing glasses and working on his computer" />
+                    <p class="text-mare">Mihai</p>
+                    <p class="center">Project Manager</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="logo-container">
+            <a href="https://twitter.com/?lang=ro" target="_blank">
+                <img src="twitter.png" alt="Twitter logo">
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="facebook.png" alt="Facebook logo">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="instagram (1).png" alt="Instagram logo">
+            </a>
+
+        </div>
+        <p class="numecompanie">&copy; 2023 ConnectIT</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
